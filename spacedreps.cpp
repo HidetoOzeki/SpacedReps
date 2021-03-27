@@ -87,7 +87,7 @@ int main(){
 
         if(in=="data"){
 	        for(int i = 0;i < counter;i++){
-            data[0].show();
+            data[i].show();
 		}
         }
         if(in=="schedule")cout << "command not available" << endl;
