@@ -1,0 +1,14 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "\\c\\Users\\User\\Documents\\GitHub\\SpacedReps",
+            "binaryPath": "\\c\\Users\\User\\Documents\\GitHub\\SpacedReps\\SpacedReps",
+            "binaryArgs": []
+        }
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
+}
