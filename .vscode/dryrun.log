@@ -1,5 +1,5 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 "make.exe": Entering directory `/c/Users/User/Documents/GitHub/SpacedReps'
-g++ main.cpp -IC:\MinGW_lib\SDL2x86\include -LC:\MinGW_lib\SDL2x86\lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_net -lSDL2_ttf -o SpacedReps
+g++ src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp -IC:\MinGW_lib\SDL2x86\include -LC:\MinGW_lib\SDL2x86\lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_net -lSDL2_ttf -o SpacedReps
 "make.exe": Leaving directory `/c/Users/User/Documents/GitHub/SpacedReps'
  

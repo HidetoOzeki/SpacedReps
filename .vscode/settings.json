@@ -1,7 +1,8 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "system_error": "cpp"
     },
     "makefile.launchConfigurations": [
         {

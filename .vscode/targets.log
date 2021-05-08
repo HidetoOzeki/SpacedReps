@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i686-pc-msys
+ 
 
-# Make data base, printed on Tue May  4 18:01:54 2021
+# Make data base, printed on Sat May  8 18:24:04 2021
 
 # Variables
 
@@ -50,21 +51,23 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
-VSCODE_NODE_CACHED_DATA_DIR = C:\Users\User\AppData\Roaming\Code\CachedData\3c4e3df9e89829dce27b7b5c24508306b151f30d
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\User\AppData\Roaming\Code\CachedData\cfa2e218100323074ac1948c885448fdf4de2a7f
 # environment
 TMP = /tmp
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 PROGRAMW6432 = C:\Program Files
+# makefile (from `makefile', line 2)
+OBJS = src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ba9202d4-d8ff-4dfe-a433-a90900419d5d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4d1d840f-28dc-499a-8a04-5a3d789526b0-sock
 # environment
 VSCODE_CWD = C:\Users\User\Documents\GitHub\SpacedReps
 # environment
-PATH = /c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/c/Program Files/Razer/ChromaBroadcast/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/Common Files/Roxio Shared/DLLShared/:/c/Program Files (x86)/Common Files/Roxio Shared/13.0/DLLShared/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/nodejs/:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/c/Program Files/Git/cmd:/c/Program Files/dotnet/:/c/VisualC_lib/SDL2-2.0.14/lib/x86:/c/ProgramData/chocolatey/bin:/c/HashiCorp/Vagrant/bin:/c/Users/User/AppData/Local/Microsoft/WindowsApps:/c/Users/User/AppData/Roaming/npm:/c/Users/User/AppData/Local/atom/bin:/c/Users/User/AppData/Local/Microsoft/WindowsApps:/c/Users/User/AppData/Local/GitHubDesktop/bin:/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/User/.dotnet/tools:/c/Program Files/Oracle/VirtualBox:/usr/bin:.
+PATH = /c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/c/Program Files/Razer/ChromaBroadcast/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/Common Files/Roxio Shared/DLLShared/:/c/Program Files (x86)/Common Files/Roxio Shared/13.0/DLLShared/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/nodejs/:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/c/Program Files/Git/cmd:/c/Program Files/dotnet/:/c/VisualC_lib/SDL2-2.0.14/lib/x86:/c/ProgramData/chocolatey/bin:/c/HashiCorp/Vagrant/bin:/c/Users/User/AppData/Roaming/npm:/c/Users/User/AppData/Local/Microsoft/WindowsApps:/c/Users/User/AppData/Roaming/npm:/c/Users/User/AppData/Local/atom/bin:/c/Users/User/AppData/Local/Microsoft/WindowsApps:/c/Users/User/AppData/Local/GitHubDesktop/bin:/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/User/.dotnet/tools:/c/Program Files/Oracle/VirtualBox:/usr/bin:.
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -90,7 +93,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1408_INCYQPGRQBUNUGVE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12108_BOACAOYIZSORFJLY
 # environment
 SUBLIME = C:\Program Files (x86)\Sublime Text 3
 # environment
@@ -160,7 +163,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ddf78b73f802b4b105ac4da8ec09dfcf-1.55.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ddf78b73f802b4b105ac4da8ec09dfcf-1.56.0-main-sock
 # makefile (from `makefile', line 5)
 LINKER = -lmingw32 -lSDL2main -lSDL2 -lSDL2_net -lSDL2_ttf
 # environment
@@ -189,6 +192,8 @@ COMSPEC = C:\WINDOWS\system32\cmd.exe
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
+# environment
+LC_ALL = C
 # automatic
 ^F = $(notdir $^)
 # default
@@ -205,18 +210,18 @@ PROCESSOR_REVISION = 2d07
 RCAUTOPLAY = C:\Program Files (x86)\Sublime Text 3
 # environment
 EMC_AUTOPLAY = C:\Program Files (x86)\Common Files\Roxio Shared\
-# makefile (from `makefile', line 2)
-OBJS = main.cpp
+# environment
+LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
 TERM = cygwin
 # environment
-VSCODE_PID = 1408
+VSCODE_PID = 12108
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-R3K26OC
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=15/136=11%
+# Load=104/1024=10%, Rehash=0, Collisions=18/138=13%
 
 # Pattern-specific Variable Values
 
@@ -224,9 +229,9 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-R3K26OC
 
 # Directories
 
-# . (device 21579, inode 3577512): 15 files, no impossibilities.
+# . (device 21579, inode 3577512): 13 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -234,7 +239,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-R3K26OC
 
 # Files
 
-all: main.cpp
+all: src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp
 #  Command-line target.
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `'
@@ -248,15 +253,15 @@ all: main.cpp
 # automatic
 # * := 
 # automatic
-# + := main.cpp
+# + := src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp
 # automatic
 # | := 
 # automatic
-# < := main.cpp
+# < := src/main.cpp
 # automatic
-# ^ := main.cpp
+# ^ := src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp
 # automatic
-# ? := main.cpp
+# ? := src/main.cpp src/gfx/Button.cpp src/gfx/Font.cpp
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=3/16=19%
 #  commands to execute (from `makefile', line 8):
@@ -272,16 +277,17 @@ all: main.cpp
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-05-02 17:13:34
+ 
+#  Last modified 2021-05-07 16:05:25
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
-main.cpp:
+src/gfx/Font.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2021-05-03 22:07:02
+#  Last modified 2021-05-07 16:16:20
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -293,8 +299,26 @@ main.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+src/gfx/Button.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-07 16:08:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-07 16:17:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/19=0%
+# Load=7/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -306,6 +330,6 @@ main.cpp:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue May  4 18:01:54 2021
+# Finished Make data base on Sat May  8 18:24:04 2021
 
  
